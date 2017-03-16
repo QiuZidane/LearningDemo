@@ -1,0 +1,84 @@
+import com.sun.jmx.snmp.tasks.TaskServer
+import com.sun.org.glassfish.gmbal.Description
+
+task helloWorld(dependsOn:'copyFile') {
+	doFirst
+	{
+		println "Hello World!"
+	}
+}
+
+
+task copyFile(type:Copy) {
+	
+	from 'xml1'
+	into 'xml2'
+	
+}
+
+
+// << 等同于 doLast, 如果不写<<或者doFirst或者doLast，那么该任务会直接关联到根项目
+// 使用gradle <task> 运行task时，会默认先运行与根关联的项目
+task hello << {
+	println tasks.class
+	println tasks.size()
+}
+
+task depToRoot {
+	doLast{
+		println description
+	}
+}
+
+depToRoot {
+	description = 'ddd'
+}
+
+
+task hello5 {
+	doLast{
+		println 'hello5'
+	}
+}
+
+
+tasks.create(name: 'hello4' ,dependsOn:'helloWorld') {
+	doLast{
+		println "hello4"
+	}
+}
+
+helloWorld.dependsOn hello
+
+task combineFileContentNonIncremental {
+   def sources = fileTree('xml1')
+
+   def destination = file('xml.txt')
+
+   // 设置输入输出, 增量式构建才会生效 
+   inputs.dir sources  
+   outputs.file destination
+
+   doLast {
+      destination.withPrintWriter { writer ->
+         sources.each {source ->
+            writer.println source.text
+         }
+      }
+   }
+}
+
+// Property
+version = 'project version'
+description = 'project descriptionn'
+
+task showVandD {
+	description = 'task description'
+	version ='task version'
+	doLast{
+		println project.version
+		println project.description;
+		println version // 貌似version只有project，无task的version
+		println description;
+	}	
+}
