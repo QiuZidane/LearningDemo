@@ -22,7 +22,8 @@ import file.FileUtil;
  */
 public class PropertiesUtil {
 
-	private static final String filepath = "config/123.properties";
+//	private static final String filepath = "config/123.properties";
+	private static final String filepath = "config/123.txt";
 
 	public static void getProperties() {
 
@@ -89,10 +90,18 @@ public class PropertiesUtil {
 
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException, IOException {
 
 		storeProperties();
 		getProperties();
+		
+		System.setProperty("a1", "111");
+		System.out.println(System.getProperty("a1"));
+		System.out.println(System.getProperties());
+		File file = new File("config/123.txt");
+		System.getProperties().load(new FileInputStream(file));  // --> 这其实等同于new了一个Properties对象
+		System.out.println("daughter=" + System.getProperty("daughter"));
+		System.out.println("user.home="+System.getProperty("user.home"));
 
 	}
 

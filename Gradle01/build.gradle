@@ -82,3 +82,22 @@ task showVandD {
 		println description;
 	}	
 }
+
+// 自定义Property
+ext.property1 = 'this is property1'
+ext {
+	property2 = 'p2'
+}
+
+// 命令行方式 - 两种
+// gradle -Pproperty3=p3 showmy
+// gradle -Dorg.gradle.project.property3=p3-1 showmy
+// export ORG_GRADLE_PROJECT_property3="this is yet another property3"  --  linux设置环境变量
+// set ORG_GRADLE_PROJECT_property3="this is yet another property3" -- win设置环境变量
+
+
+task showmy << {
+	println property1	
+	println property2	
+	println property3	
+}
