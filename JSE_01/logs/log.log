@@ -1,0 +1,6 @@
+[2017-01-24 10:38:44 main] class:=log.Log4jTest : error
+[2017-01-24 10:38:44 main] class:=log.Log4jTest : java.lang.Exception: this is an Exception
+	at log.Log4jTest.getStackTrace(Log4jTest.java:65)
+	at log.Log4jTest.log4jTest(Log4jTest.java:58)
+	at log.Log4jTest.main(Log4jTest.java:82)
+

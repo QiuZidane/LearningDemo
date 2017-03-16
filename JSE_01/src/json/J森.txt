@@ -1,0 +1,13 @@
+{"age":25,
+"name":null,
+"birthDay":"1982-10-01 23:11:59",
+"members":["zidane","even","jane","alax"],
+"obj1":{
+	"A":"AAA",
+	"B":"BBB"
+	},
+"major":[
+	"maths",
+	"programme"
+	]
+}

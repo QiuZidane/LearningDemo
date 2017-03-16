@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     2017年2月8日 上午11:25:06                                                        
+
+     project    
+     description
+                   
+     EvaZis                                                                
+     ====================================================================== -->
+<project name="project" default="default" basedir=".">
+	<description>
+            description
+    </description>
+
+	<!-- ================================= 
+          target: default              
+         ================================= -->
+	<target name="default" depends="depends" description="description">
+
+		<mkdir dir="build/classes" />
+		<javac srcdir="." destdir="build/classes" includeantruntime="on" />
+
+	</target>
+
+	<!-- - - - - - - - - - - - - - - - - - 
+          target: depends                      
+         - - - - - - - - - - - - - - - - - -->
+	<target name="depends">
+
+		<delete dir="build">
+		</delete>
+
+	</target>
+
+</project>

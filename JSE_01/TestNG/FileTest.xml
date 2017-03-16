@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FileTestSuite1">
+	<!-- preserve-order定义methods按顺序执行 -->
+	<test name="order_test" preserve-order="true">
+		<classes>
+			<class name="testng.FileUtilTest">
+				<methods>
+					<include name="getClassPathByUri2" />
+					<include name="getClassPathByUri1" />
+					<!-- <include name="exceptionTest1" /> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<!-- Before/AfterClass和Before/AfterTest在groups方式调用中不生效。。 -->
+	<!-- 按组执行案例 -->
+	<test name="group_test" preserve-order="true">
+		<classes>
+			<class name="testng.FileUtilTest">
+				<groups>
+					<run>
+						<include name="functest" />
+						<include name="exceptiontest" />
+					</run>
+				</groups>
+			</class>
+		</classes>
+	</test>
+	<!-- 参数传递的案例，在testng案例中定义@Parameter用于接受xml中的数据 -->
+	<!-- 参数定义在外层则所有test都可用 -->
+	<parameter name="classname2" value="file.FileUtil" /> 
+	<test name="param_test" preserve-order="true">
+		<parameter name="classname1" value="excel.ExcelCreator" />
+		<classes>
+			<class name="testng.FileUtilTest">
+				<methods>
+					<include name="paramTest1" />
+				</methods>
+				<!-- <groups> <run> <include name="paramtest" /> </run> </groups> -->
+			</class>
+		</classes>
+	</test>
+</suite>
+
+
+
+
+
+
+
+

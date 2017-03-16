@@ -1,0 +1,24 @@
+2017-01-23 16:11:54 [main:0]-[ERROR] error
+2017-01-23 16:12:22 [main:0]-[ERROR] error
+2017-01-23 16:12:40 [main:0]-[ERROR] error
+2017-01-23 17:00:19 [main:0]-[ERROR] error
+2017-01-23 17:00:50 [main:0]-[ERROR] error
+2017-01-23 17:11:21 [main:0]-[ERROR] error
+2017-01-23 17:12:57 [main:0]-[ERROR] error
+2017-01-23 17:14:39 [main:0]-[ERROR] error
+2017-01-23 17:16:41 [main:0]-[ERROR] "on" [root] error
+2017-01-23 17:17:05 [main:0]-[ERROR] class:"[root]" error
+2017-01-23 17:19:26 [main:0]-[ERROR] class:=root time=0  :error
+2017-01-23 17:19:31 [main:0]-[ERROR] class:=root time=0  :error
+2017-01-23 17:25:42 [main:0]-[ERROR] class:=root time=0  :error
+2017-01-23 17:25:42 [main:2]-[ERROR] class:=root time=2  :java.lang.Exception: this is an Exception
+	at log.Log4jTest.getStackTrace(Log4jTest.java:65)
+	at log.Log4jTest.log4jTest(Log4jTest.java:58)
+	at log.Log4jTest.main(Log4jTest.java:82)
+
+2017-01-23 17:26:36 [main:0]-[ERROR] class:=root time=0  :error
+2017-01-23 17:26:36 [main:2]-[ERROR] class:=root time=2  :java.lang.Exception: this is an Exception
+	at log.Log4jTest.getStackTrace(Log4jTest.java:65)
+	at log.Log4jTest.log4jTest(Log4jTest.java:58)
+	at log.Log4jTest.main(Log4jTest.java:82)
+
