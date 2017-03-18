@@ -1,0 +1,8 @@
+23:58:02.242 [main] WARN  org.pcap4j.core.Pcaps - failed to set hardware filter to non-promiscuous mode
+23:58:02.265 [main] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+23:58:02.265 [main] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+23:58:02.265 [main] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+23:58:02.265 [main] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+23:58:02.286 [main] INFO  org.pcap4j.core.Pcaps - 15 NIF(s) found.
+23:58:02.289 [main] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+23:58:04.448 [main] INFO  o.p.packet.factory.PacketFactories - Succeeded in FactoryBinder.getInstance()
