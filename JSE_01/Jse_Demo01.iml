@@ -8,6 +8,8 @@
     <conelement value="org.testng.TESTNG_CONTAINER" />
     <src_description expected_position="0">
       <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+      <src_folder value="GROOVY_DSL_SUPPORT" expected_position="7" />
+      <src_folder value="GROOVY_SUPPORT" expected_position="8" />
     </src_description>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
@@ -17,7 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="jdk" jdkName="JavaSE-1.7" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="module-library">
       <library name="log4j-1.2.17.jar">
         <CLASSES>
@@ -59,5 +61,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="org.testng.TESTNG_CONTAINER" level="application" />
+    <orderEntry type="library" name="groovy-2.4.4" level="application" />
   </component>
 </module>

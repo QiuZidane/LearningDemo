@@ -1,0 +1,69 @@
+<!-- /***************************
+*
+*   created by qiusd on 2016-02-26
+*   cooperation xxx
+*
+*   1、index.html是主页面
+*   2、导航按钮会将其他页面加载到index.html的<div class="middleDiv" id="middleDivDes"> 
+*   3、其他页面样式参照welcomepage.html/welcomepage.css编写
+*
+*   ***欢迎页面***
+*   
+****************************  / -->
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>足球大本营</title>
+	</head>
+
+	<body>
+		<div class="middleDiv" id="middleDivDes">
+			<div id="teambg">				
+			</div>
+					<!-- 联赛倒数 -->
+			<div id="text_countdown">
+				<p id="descTxt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联赛揭幕倒计时:</p>
+				<p id="CDtime">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span id="day"><strong>60</strong></span>&nbsp;
+					<span class="text_cd" id="daytxt">天</span>&nbsp;
+					<span id="hour"><strong>59</strong></span>&nbsp;
+					<span class="text_cd">小时</span>&nbsp;
+					<span id="minute"><strong>59</strong></span>&nbsp;
+					<span class="text_cd">分钟</span>
+					<!--<span id="second"><strong>59</strong></span>&nbsp;
+         <span class="text_cd">Sec</span>-->
+				</p>
+			</div>
+			<!-- 已加入人数 -->
+			<div id="text_joins">
+				<p id="text1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;已有&nbsp;</p>
+				<p id="CDjoins"><strong>101</strong></p>
+				<p id="text2">&nbsp;人加入联赛!</p>
+			</div>
+
+			<!-- 立刻按钮 -->
+			<div id="joinBtnDiv">
+				<button type="button" class="btn btn-success btn-lg" id="joinBtn">立刻加入!</button>
+			</div>
+		</div>
+
+		<!-- 第三方引用 -->
+		<script type="text/javascript" src="../js/third/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/third/ajaxrequest.js"></script>
+		<script type="text/javascript" src="../js/third/bootstrap.min.js"></script>
+		<link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+		<!-- 自定义 -->
+		<script type="text/javascript" src="../js/constants.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/welcomepage.css">
+		<script type="text/javascript" src="../js/welcomepage.js"></script>
+
+		<script type="text/javascript">
+			GetPlayerCount();
+		</script>
+
+	</body>
+
+</html>

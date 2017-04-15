@@ -1,0 +1,99 @@
+/*
+*
+*   created by qiusd on 2016-02-26
+*   cooperation xxx
+*   
+*/
+
+body {
+	background-color: rgb(224, 224, 224);
+}
+
+
+/*******************************
+*
+*   下面是中间Div的css：middleDiv
+*
+/*******************************/
+
+.middleDiv {
+	width: 1200px;
+	height: 800px;
+	/*height不会超过index.css设置的height*/
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0 auto;
+}
+
+#loginDiv {
+	float: left;
+	background-color: rgba(246, 244, 240, 0.3);
+	border: 2px solid rgb(51, 122, 183);
+	width: 440px;
+	height: 330px;
+	margin-top: 200px;
+	margin-left: 380px;
+	padding-right: 5px;
+}
+
+#logintitle {
+	float: left;
+	/*border: 2px solid rgb(51,122,183);*/
+	width: 200px;
+	height: 35px;
+	margin-top: 30px;
+	margin-left: 120px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+
+#username {
+	float: left;
+	border: 2px solid rgb(51, 122, 183);
+	width: 200px;
+	height: 38px;
+	margin-top: 13px;
+	margin-left: 120px;
+	text-align: center;
+}
+
+#password {
+	float: left;
+	border: 2px solid rgb(51, 122, 183);
+	width: 200px;
+	height: 38px;
+	margin-top: 1px;
+	margin-left: 120px;
+	text-align: center;
+}
+
+#resgisterbtn {
+	float: left;
+	border: 2px solid rgb(51, 122, 183);
+	width: 95px;
+	height: 38px;
+	margin-top: 1px;
+	margin-left: 120px;
+	text-align: center;
+}
+
+#loginbtn {
+	float: left;
+	border: 2px solid rgb(51, 122, 183);
+	width: 95px;
+	height: 38px;
+	margin-top: 1px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+#myModalLabel {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: red;
+}
+
+.modal {
+	margin-top: 200px;
+}

@@ -1,0 +1,81 @@
+<!-- /***************************
+*
+*   created by qiusd on 2016-02-26
+*   cooperation xxx
+*
+*   1、index.html是主页面
+*   2、导航按钮会将其他页面加载到index.html的<div class="middleDiv" id="middleDivDes"> 
+*   3、其他页面样式参照welcomepage.html/welcomepage.css编写
+*
+*   ***队伍页面***
+*   
+****************************  / -->
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<script type="text/javascript" src="../js/third/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/third/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../js/third/ajaxrequest.js"></script>
+		<script type='text/javascript' src="../js/third/echarts.min.js"></script>
+		<link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+		<title>足球大本营</title>
+	</head>
+
+	<body>
+		<div class="middleDiv" id="middleDivDes" style="height:100%">
+			<div id="teamContent">
+				<div class="teamArea" id='teamAreaA'>
+					<div class="teamName" id='teamNameA'><img src="../img/soccer64.png" />A队</div>
+					<div class="playerList">
+						<!-- A队球员列表 -->
+						<ul id="teamA">
+
+						</ul>
+					</div>
+				</div>
+				<div class="teamArea">
+					<div class="teamName" id='teamNameB'><img src="../img/soccer64.png" />B队</div>
+					<div class="playerList">
+						<!-- B队球员列表 -->
+						<ul id="teamB">
+
+						</ul>
+					</div>
+				</div>
+				<div class="teamArea">
+					<div class="teamName" id='teamNameC'><img src="../img/soccer64.png" />C队</div>
+					<div class="playerList">
+						<!-- C队球员列表 -->
+						<ul id="teamC">
+
+						</ul>
+					</div>
+				</div>
+				<div class="teamArea">
+					<div class="teamName" id='teamNameD'><img src="../img/soccer64.png" />D队</div>
+					<div class="playerList">
+						<!-- D队球员列表 -->
+						<ul id="teamD">
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="chartArea"></div>
+		</div>
+
+		<!-- 我们自定义的css和js -->
+		<link rel="stylesheet" type="text/css" href="../css/teams.css">
+		<script type="text/javascript" src="../js/constants.js"></script>
+		<script type="text/javascript" src="../js/teams.js"></script>
+
+		<script type="text/javascript">
+			GetAllPlayerData();
+		</script>
+
+	</body>
+
+</html>

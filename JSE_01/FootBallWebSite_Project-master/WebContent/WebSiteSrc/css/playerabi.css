@@ -1,0 +1,758 @@
+/*
+*
+*   created by qiusd on 2016-02-26
+*   cooperation xxx
+*   
+*/
+
+body {	
+    background-color: rgb(224, 224, 224);   
+}
+
+/*左侧卡位div*/
+
+#chart_Div1 {
+	float: left;
+	/*border: 1px solid rgb(51, 122, 183);*/
+	width: 300px;
+	height: 800px;
+	margin-top: 100px;
+	margin-left: 2px;
+	padding-left: 5px;
+}
+
+
+/*右边占位*/
+
+#chart_Div2 {
+	float: right;
+	/*border: 1px solid rgb(51, 122, 183);*/
+	width: 10px;
+	height: 600px;
+	margin-top: 100px;
+	margin-right: 10px;
+}
+
+#userheadDiv {
+	float: left;
+	border: 1px solid rgb(51, 122, 183);
+	width: 140px;
+	height: 140px;
+	margin-top: 33px;
+	margin-left: 90px;
+	padding-right: 5px;
+	background-image: url(../img/playerhead1.png);
+	background-size: 100% 100%;
+}
+
+#userinfoDiv {
+	float: left;
+	/*border: 3px solid rgb(51, 122, 183);*/
+	width: 200px;
+	height: 50px;
+	margin-top: 17px;
+	margin-left: 88px;
+	padding-right: 5px;
+	font-size: 16px;
+	color: rgb(51, 122, 183);
+}
+
+#highchartDiv {
+	float: left;
+	/*border: 1px solid rgb(51, 122, 183);*/
+	width: 280px;
+	height: 260px;
+	margin-top: 40px;
+	margin-left: 28px;
+	padding-right: 5px;
+	background-size: 100% 100%;
+}
+
+
+/*提交按钮*/
+
+#returnBtnDiv {
+	/*position: absolute;*/
+	float: left;
+	/*border: 1px solid rgb(51, 122, 183);*/
+	width: 150px;
+	height: 50px;
+	margin-top: 155px;
+	margin-left: 40px;
+	padding-right: 5px;	
+}
+
+/*提交提示*/
+
+#submitResultDesc {
+	float: left;
+	/*border: 1px solid rgb(51, 122, 183);*/
+	width: 600px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 10px;
+	color: rgb(166,226,46);	
+	text-align: center;	
+	font-size: 26px;
+	font-weight: 900;
+	color: green;
+}
+
+
+.joinlabel:hover {
+	cursor: pointer;
+	color: rgb(67,152,203);
+}
+
+/*******************************
+*
+*   下面是中间Div的css：middleDiv
+*
+/*******************************/
+
+.middleDiv {
+	width: 1200px;
+	height: 800px;
+	/*    background-image: url(../img/bg6.jpg);
+    background-size: 100% 100%;*/
+	background-color: rgb(224, 224, 224);
+	margin: 0 auto;
+}
+
+#explainDiv {
+	position: absolute;
+	float: right;
+	/*border: 1px solid rgb(51,122,183);*/
+	width: 800px;
+	height: 30px;
+	margin-top: 80px;
+	margin-left: 180px;
+	padding-right: 5px;
+	font-size: 20px;
+	color: rgb(51, 122, 183);
+}
+
+.abbsBG {
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgb(51, 122, 183);
+}
+
+
+/*************/
+
+
+/*bode部分的css*/
+
+
+/*************/
+
+#bodeDiv {
+	/*position: absolute;*/
+	float: left;
+	border: 1px solid rgb(51, 122, 183);
+	width: 250px;
+	height: 250px;
+	margin-top: 130px;
+	margin-left: 10px;
+	padding-right: 5px;
+	font-size: 16px;
+	color: rgb(51, 122, 183);
+}
+
+#bodeDivtitle {
+	/*border: 1px solid rgb(51,122,183); */
+	width: 50px;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+
+#bodeprogress {
+	float: right;
+	width: 140px;
+	margin-top: -25px;
+	margin-left: 20px;
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183);    */
+}
+
+#bodeabbsdiv {
+	/*border: 1px solid rgb(51,122,183);   */
+	margin-top: 15px;
+}
+
+.bodedesc {
+	/*border: 1px solid rgb(51,122,183);   */
+	margin-left: 10px;
+	margin-top: 22px;
+}
+
+#bodeabbs1 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+#bodeabbs2 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+#bodeabbs3 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+#bodeabbs4 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+#bodeabbs5 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+#bodeabbs6 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+
+/*******************/
+
+
+/*下面是slider的css*/
+
+
+/*******************/
+
+#bodeabbs1 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#bodeabbs1 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+#bodeabbs2 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#bodeabbs2 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+#bodeabbs3 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#bodeabbs3 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+#bodeabbs4 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#bodeabbs4 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+
+/*************/
+
+
+/*tech_部分的css*/
+
+
+/*************/
+
+#tech_Div {
+	position: relative;
+	float: left;
+	border: 1px solid rgb(51, 122, 183);
+	width: 250px;
+	height: 250px;
+	margin-top: 130px;
+	margin-left: 10px;
+	padding-right: 5px;
+	font-size: 16px;
+	color: rgb(51, 122, 183);
+}
+
+#tech_Divtitle {
+	/*border: 1px solid rgb(51,122,183); */
+	width: 50px;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+
+#tech_progress {
+	float: right;
+	width: 140px;
+	margin-top: -25px;
+	margin-left: 20px;
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183);    */
+}
+
+#tech_abbsdiv {
+	/*border: 1px solid rgb(51,122,183);   */
+	margin-top: 15px;
+}
+
+.tech_desc {
+	/*border: 1px solid rgb(51,122,183);   */
+	margin-left: 10px;
+	margin-top: 22px;
+}
+
+#tech_abbs1 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+#tech_abbs2 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+#tech_abbs3 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+#tech_abbs4 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+
+/*******************/
+
+
+/*下面是slider的css*/
+
+
+/*******************/
+
+#tech_abbs1 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#tech_abbs1 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+#tech_abbs2 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#tech_abbs2 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+#tech_abbs3 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#tech_abbs3 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+#tech_abbs4 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#tech_abbs4 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+
+/*************/
+
+
+/*************/
+
+
+/*************/
+
+
+/*************/
+
+
+/*************/
+
+
+/*spec_部分的css*/
+
+
+/*************/
+
+
+/*************/
+
+
+/*************/
+
+
+/*************/
+
+
+/*************/
+
+#spec_Div {
+	position: relative;
+	float: left;
+	border: 1px solid rgb(51, 122, 183);
+	width: 250px;
+	height: 250px;
+	margin-top: 130px;
+	margin-left: 10px;
+	padding-right: 5px;
+	font-size: 16px;
+	color: rgb(51, 122, 183);
+}
+
+#spec_Divtitle {
+	/*border: 1px solid rgb(51,122,183); */
+	width: 50px;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+
+#spec_progress {
+	float: right;
+	width: 140px;
+	margin-top: -25px;
+	margin-left: 20px;
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183);    */
+}
+
+#spec_abbsdiv {
+	/*border: 1px solid rgb(51,122,183);   */
+	margin-top: 15px;
+}
+
+.spec_desc {
+	/*border: 1px solid rgb(51,122,183);   */
+	margin-left: 10px;
+	margin-top: 22px;
+}
+
+#spec_abbs1 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+#spec_abbs2 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+#spec_abbs3 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+
+/*******************/
+
+
+/*下面是slider的css*/
+
+
+/*******************/
+
+#spec_abbs1 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#spec_abbs1 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+#spec_abbs2 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#spec_abbs2 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+#spec_abbs3 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#spec_abbs3 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+
+/*
+ * 
+ * attack_部分的css
+ * 
+ */
+
+#attack_Div {
+	/*position: absolute;*/
+	float: left;
+	border: 1px solid rgb(51, 122, 183);
+	width: 250px;
+	height: 250px;
+	margin-top: 30px;
+	margin-left: 10px;
+	padding-right: 5px;
+	font-size: 16px;
+	color: rgb(51, 122, 183);
+}
+
+#attack_Divtitle {
+	/*border: 1px solid rgb(51,122,183); */
+	width: 50px;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+
+#attack_progress {
+	float: right;
+	width: 140px;
+	margin-top: -25px;
+	margin-left: 20px;
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183);    */
+}
+
+#attack_abbsdiv {
+	/*border: 1px solid rgb(51,122,183);   */
+	margin-top: 15px;
+}
+
+.attack_desc {
+	/*border: 1px solid rgb(51,122,183);   */
+	margin-left: 10px;
+	margin-top: 22px;
+}
+
+#attack_abbs1 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+#attack_abbs2 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+#attack_abbs3 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+
+/*******************/
+
+
+/*下面是slider的css*/
+
+
+/*******************/
+
+#attack_abbs1 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#attack_abbs1 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+#attack_abbs2 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#attack_abbs2 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+#attack_abbs3 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#attack_abbs3 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+
+/*************/
+
+
+/*defen_部分的css*/
+
+
+/*************/
+
+#defen_Div {
+	/*position: absolute;*/
+	float: left;
+	border: 1px solid rgb(51, 122, 183);
+	width: 250px;
+	height: 250px;
+	margin-top: 30px;
+	margin-left: 10px;
+	padding-right: 5px;
+	font-size: 16px;
+	color: rgb(51, 122, 183);
+}
+
+#defen_Divtitle {
+	/*border: 1px solid rgb(51,122,183); */
+	width: 50px;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+
+#defen_progress {
+	float: right;
+	width: 140px;
+	margin-top: -25px;
+	margin-left: 20px;
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183);    */
+}
+
+#defen_abbsdiv {
+	/*border: 1px solid rgb(51,122,183);   */
+	margin-top: 15px;
+}
+
+.defen_desc {
+	/*border: 1px solid rgb(51,122,183);   */
+	margin-left: 10px;
+	margin-top: 22px;
+}
+
+#defen_abbs1 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+#defen_abbs2 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+#defen_abbs3 {
+	float: right;
+	width: 140px;
+	/*slider长度*/
+	margin-right: 5px;
+	/*border: 1px solid rgb(51,122,183); */
+}
+
+#chart_Div3 {
+	float: left;
+	/*border: 1px solid rgb(51, 122, 183);*/
+	width: 250px;
+	height: 220px;
+	margin-top: 30px;
+	margin-left: 50px;
+	font-size: 18px;
+}
+
+
+#errordesc {
+	font-size: 18px;
+	font-weight: 900;
+	color: red;	
+}
+
+
+/*
+ * 下面是slider的css
+ *  
+ */
+
+
+#defen_abbs1 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#defen_abbs1 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+#defen_abbs2 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#defen_abbs2 .slider-handle {
+	background: rgb(12, 142, 207);
+}
+
+#defen_abbs3 .slider-selection {
+	background: rgb(12, 142, 207);
+}
+
+#defen_abbs3 .slider-handle {
+	background: rgb(12, 142, 207);
+}

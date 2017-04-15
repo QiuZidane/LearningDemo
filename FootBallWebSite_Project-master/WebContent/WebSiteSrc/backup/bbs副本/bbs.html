@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="../js/third/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/third/ajaxrequest.js"></script>
+		<script type="text/javascript" src="../js/constants.js"></script>
+		<script type="text/javascript" src="../js/bbs.js"></script>
+	</head>
+	<body>
+		<div class="middleDiv" id="middleDivDes">
+			<div id="msgBox">
+				<form>
+					<h2>[七嘴八舌足球圈]</h2>
+
+					<div>
+						<input id="userName" class="f-text" value="" placeholder="输入用户名" />
+						<p id="face"><img src="img/face1.gif" class="current" /><img src="img/face2.gif" /><img src="img/face3.gif" /><img src="img/face4.gif" /><img src="img/face5.gif" /><img src="img/face6.gif" /><img src="img/face7.gif" /><img src="img/face8.gif" /></p>
+					</div>
+					<div><textarea id="conBox" class="f-text" placeholder="评论正文"></textarea></div>
+					<div class="tr">
+						<p>
+							<span class="countTxt">还能输入</span><strong class="maxNum">140</strong><span>个字</span>
+							<input id="sendBtn" type="button" value="" title="快捷键 Ctrl+Enter" />
+						</p>
+					</div>
+				</form>
+				<div class="list">
+					<h3><span>大家在说</span></h3>
+					<ul id="bbslist">
+						<!--<li>
+							<div class="userPic"><img src="img/face.gif" /></div>
+							<div class="content">
+								<div class="userName">
+									<a href="javascript:;"></a>管理员:</div>
+								<div class="msgInfo">经过开发团队不懈的努力，广研足协俱乐部网站成功上线！欢迎大家加入！ -- 可匿名评论</div>
+								<div class="times"><span>04月11日 22:19</span>
+									<a class="del" href="javascript:;"></a>
+								</div>
+							</div>
+						</li>-->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		getData();
+	</script>
+	
+	<link rel="stylesheet" type="text/css" href="../css/bbs.css">
+
+</html>

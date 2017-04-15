@@ -1,0 +1,89 @@
+/*
+*
+*   created by qiusd on 2016-02-26
+*   cooperation xxx
+*   
+*/
+
+/*******************************
+*
+*       下面是总体的CSS
+*
+/*******************************/
+body {
+    background-image: url(../img/bg4.jpg); 
+}
+
+#middleDivDes {        
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;    
+}
+
+#middleFrameID {
+    position: relative;
+    width: 1200px;
+    height: 770px;    
+}
+
+/*******************************
+*
+*   下面是头部nav-header的CSS
+*
+/*******************************/
+.nav-header {
+    width: 100%;
+    height: 57px;
+    position: fixed; 
+    z-index: 99999;
+}
+.nav-fix {
+    width: 1200px;
+    height: 57px;
+    background-color: rgba(222,222,222,1);
+    margin: 0 auto;
+    background-image: url(../img/navbg1.png);
+    border: 0.5px solid rgb(36,152,235);
+    border-bottom: 2px solid rgb(36,152,235);
+}
+
+.navcontext {
+   padding: 8px 5px 8px 8px;
+}
+
+.nav-pills {
+    float:right;  
+    padding-right: 50px;  
+}
+
+.titletext {
+    color: rgb(51,122,183);
+    padding-left: 15px;    
+    margin-left: 5px;
+    margin-top: 2px;
+
+}
+
+
+/*******************************
+*
+*       下面是FootDiv的css
+*
+/*******************************/
+.footerDiv {
+    width: 100%;
+    height: 57px;
+    position: fixed;   
+    z-index: 99999;
+}
+.footer-fix {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: -6px;
+    background-image: url(../img/navbg3.png);
+    background-size: 100% 100%;
+    border-left: 0.5px solid rgb(36,152,235);
+    border-right: 0.5px solid rgb(36,152,235);
+    border-bottom: 2px solid rgb(36,152,235);
+}

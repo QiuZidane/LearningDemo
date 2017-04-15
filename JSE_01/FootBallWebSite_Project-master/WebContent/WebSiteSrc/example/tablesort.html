@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<table border="1" id="tblSort">
+			<thead>
+				<tr>
+					<th>序号</th>
+					<th>姓名</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>张三</td>
+				</tr>
+				<tr>
+					<td>34</td>
+					<td>李四</td>
+				</tr>
+				<tr>
+					<td>33</td>
+					<td>张1三</td>
+				</tr>
+			</tbody>
+		</table>
+		<button id="nameid" onclick="sortTable(1)"> 按姓名升序</button>
+		<button id="numberid" onclick="sortTable(0)">按序号降序</button>
+
+		<ul id="myList1">
+			<li>Coffee</li>
+			<li>Tea</li>
+		</ul>
+		<ul id="myList2">
+			<li>Water</li>
+			<li>Milk</li>
+		</ul>
+
+		<p id="demo">请点击按钮把项目从一个列表移动到另一个列表中。</p>
+
+		<button onclick="myFunction()">亲自试一试</button>
+
+		<script>
+			function myFunction() {
+				var node = document.getElementById("myList1").firstChild;
+				document.getElementById("myList1").appendChild(node);	//如果appendChild(xx)的参数是新节点，则在后面添加，否则会将这个节点移动到最后。
+			}
+		</script>
+
+	</body>
+	<script type="text/javascript" src="../js/tablesort.js"></script>
+
+</html>

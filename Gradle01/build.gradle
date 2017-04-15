@@ -101,3 +101,29 @@ task showmy << {
 	println property2	
 	println property3	
 }
+
+apply plugin: 'java-library'
+
+
+// 定义打包属性
+jar {
+    baseName = 'GG01Project'
+    version =  '1.0.0'
+	manifest {
+		attributes 'Main-Class': 'net.petrikainulainen.gradle.HelloWorld'
+	}
+}
+
+// 依赖管理
+dependencies {
+	
+	// 两种方式
+	// 方式1
+	compile 'commons-io:commons-io:2.2'
+	compile 'log4j:log4j:1.2.17'
+
+	// 方式2
+	//	compile files('commons-io-2.2.jar','log4j-1.2.17.jar')
+	//	compile fileTree(dir: 'lib', include: '*.jar')
+
+}

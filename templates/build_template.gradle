@@ -1,0 +1,134 @@
+import com.sun.jmx.snmp.tasks.TaskServer
+import com.sun.org.glassfish.gmbal.Description
+
+task helloWorld(dependsOn:'copyFile') {
+	doFirst
+	{
+		println "Hello World!"
+	}
+}
+
+
+task copyFile(type:Copy) {
+	
+	from 'xml1'
+	into 'xml2'
+	
+}
+
+
+// << 等同于 doLast, 如果不写<<或者doFirst或者doLast，那么该任务会直接关联到根项目
+// 使用gradle <task> 运行task时，会默认先运行与根关联的项目
+task hello << {
+	println tasks.class
+	println tasks.size()
+}
+
+task depToRoot {
+	doLast{
+		println description
+	}
+}
+
+depToRoot {
+	description = 'ddd'
+}
+
+
+task hello5 {
+	doLast{
+		println 'hello5'
+	}
+}
+
+
+tasks.create(name: 'hello4' ,dependsOn:'helloWorld') {
+	doLast{
+		println "hello4"
+	}
+}
+
+helloWorld.dependsOn hello
+
+task combineFileContentNonIncremental {
+   def sources = fileTree('xml1')
+
+   def destination = file('xml.txt')
+
+   // 设置输入输出, 增量式构建才会生效 
+   inputs.dir sources  
+   outputs.file destination
+
+   doLast {
+      destination.withPrintWriter { writer ->
+         sources.each {source ->
+            writer.println source.text
+         }
+      }
+   }
+}
+
+// Property
+version = 'project version'
+description = 'project descriptionn'
+
+task showVandD {
+	description = 'task description'
+	version ='task version'
+	doLast{
+		println project.version
+		println project.description;
+		println version // 貌似version只有project，无task的version
+		println description;
+	}	
+}
+
+// 自定义Property
+ext.property1 = 'this is property1'
+ext {
+	property2 = 'p2'
+}
+
+// 命令行方式 - 两种
+// gradle -Pproperty3=p3 showmy
+// gradle -Dorg.gradle.project.property3=p3-1 showmy
+// export ORG_GRADLE_PROJECT_property3="this is yet another property3"  --  linux设置环境变量
+// set ORG_GRADLE_PROJECT_property3="this is yet another property3" -- win设置环境变量
+
+
+task showmy << {
+	println property1	
+	println property2	
+	println property3	
+}
+
+apply plugin: 'java-library'
+
+
+// 定义打包属性
+jar {
+	
+	// 把所有程序运行所需的依赖都打包到Jar文件中去--俗称胖Jar
+	from {
+		configurations.compile.collect {
+			it.isDirectory() ? it : zipTree(it)
+		}
+	}
+	baseName = 'GG01Project'
+	version =  '1.0.0'
+	manifest {  attributes 'Main-Class': 'com.zidane.javademo.JavaTest'  }
+}
+
+// 依赖管理
+dependencies {
+	
+	// 两种方式
+	// 方式1
+	compile 'commons-io:commons-io:2.2'
+	compile 'log4j:log4j:1.2.17'
+
+	// 方式2
+	//	compile files('commons-io-2.2.jar','log4j-1.2.17.jar')
+	//	compile fileTree(dir: 'lib', include: '*.jar')
+
+}

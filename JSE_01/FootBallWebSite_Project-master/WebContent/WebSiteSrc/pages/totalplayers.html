@@ -1,0 +1,50 @@
+<!-- /***************************
+*
+*   created by qiusd on 2016-02-26
+*   cooperation xxx
+*
+*   1、index.html是主页面
+*   2、导航按钮会将其他页面加载到index.html的<div class="middleDiv" id="middleDivDes"> 
+*   3、其他页面样式参照welcomepage.html/welcomepage.css编写
+*
+*   ***欢迎页面***
+*   
+****************************  / -->
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>足球大本营</title>
+	</head>
+
+	<body>
+		<div class="middleDiv" id="middleDivDes">
+			<!-- 欢迎界面图片展示 -->
+			<div id="imgDiv1"></div>
+			<div id="imgDiv2"></div>
+			<div id="imgDiv3"></div>
+			<!-- 联赛倒数 -->
+			<div id="text_countdown">
+				<br>
+				<h1> totalplayers页面 </h1>
+
+				<button type="button" class="btn btn-primary btn-lg" id="confirmBtn" onclick="document.location.href='../pages/playerabi.jsp?name=zidane'">查询zidane的能力</button>
+
+			</div>
+
+		</div>
+
+		<!-- 第三方引用 -->
+		<script type="text/javascript" src="../js/third/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/third/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../js/third/ajaxrequest.js"></script>
+		<link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+		<!-- 我们自定义的css和js -->
+		<link rel="stylesheet" type="text/css" href="../css/welcomepage.css">
+		<script type="text/javascript" src="../js/welcomepage.js"></script>
+
+	</body>
+
+</html>

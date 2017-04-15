@@ -1,0 +1,119 @@
+/*
+*
+*   created by qiusd on 2016-02-26
+*   cooperation xxx
+*   
+*/
+body {	
+    background-color: rgb(224, 224, 224);   
+}
+
+/*******************************
+*
+*   下面是中间Div的css：middleDiv
+*
+/*******************************/
+.middleDiv {    
+    width: 1200px;
+    height: 800px;
+    background-color: rgba(230,230,230,0.3);
+    margin: 0 auto;
+}
+
+#imgDiv1 {
+    background: url(../img/team2.jpg);    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    /*border: 2px solid rgb(51,122,183);*/
+    width: 420px;
+    height: 630px;
+    margin-top: 90px; 
+    margin-left: 2px;
+    padding-right: 5px;
+}
+
+#imgDiv2 {
+    background: url(../img/teams3.jpg);    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    /*border: 2px solid rgb(51,122,183);*/
+    width: 380px;
+    height: 300px;
+    margin-top: 90px; 
+    margin-left: 5px;
+}
+
+#imgDiv3 {
+    background: url(../img/teams1.jpg);    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    /*border: 2px solid rgb(51,122,183);*/
+    width: 380px;
+    height: 300px;
+    margin-top: 90px; 
+    margin-left: 5px;
+}
+
+#text_countdown {
+    float: left;
+    width: 750px;
+    height: 100px;
+    margin-top: 20px;
+    /*border: 2px solid rgb(51,122,183);*/
+    font-size:20px;
+    color: rgb(51,122,183);
+}
+
+#CDtime {
+    font-size:40px;
+    color: rgb(51,122,183);
+    text-align: center;
+}
+
+#text_joins {
+    float: right;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;    
+    font-size:20px;
+    color: rgb(51,122,183);
+}
+
+#CDjoins {
+    display: inline-block;
+    font-size:50px;
+    color: rgb(51,122,183);
+    text-align: center;
+}
+
+.text_cd {
+    font-size: 26px;
+}
+
+#text1 {
+    display: inline-block;
+    font-size:26px;
+    color: rgb(51,122,183);
+}
+
+#text2 {
+    display: inline-block;
+    font-size:20px;
+    color: rgb(51,122,183);
+}
+
+#joinBtnDiv {
+    width: 500px;
+    height: 100px;
+    float: right;
+}
+
+#joinBtn {
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+

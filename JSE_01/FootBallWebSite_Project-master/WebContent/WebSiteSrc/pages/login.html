@@ -1,0 +1,105 @@
+<!-- /***************************
+*
+*   created by qiusd on 2016-02-26
+*   cooperation xxx
+*
+*   1、index.html是主页面 
+*   2、导航按钮会将其他页面加载到index.html的<div class="middleDiv" id="middleDivDes"> 
+*   3、其他页面样式参照welcomepage.html/welcomepage.css编写
+*
+*   ***用户登陆***
+*   a、必须登录了才能维护个人属性
+*   
+****************************  / -->
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>足球大本营</title>
+		<script type="text/javascript" src="../js/third/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/third/base64.js"></script>
+		<script type="text/javascript" src="../js/third/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../js/third/ajaxrequest.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap.min.css">
+
+	</head>
+
+	<body>
+		<div class="middleDiv" id="middleDivDes">
+
+			<div id="loginDiv">
+				<!--标题-->
+				<div id="logintitle">Login</div>
+				<form role="form" method="post" target="postTo">
+					<!--用户名-->
+					<div class="form-group" id="username">
+						<input type="text" class="form-control" id="nameinput" placeholder="Username">
+					</div>
+					<!--密码-->
+					<div class="form-group" id="password">
+						<input type="password" class="form-control" id="passwordinput" placeholder="Passowrd">
+					</div>					
+					<div id="resgisterbtn">
+						<button type="button" class="btn btn-success btn-block" id="reginput">注册</button>
+					</div>
+					<div id="loginbtn">
+						<button type="submit" class="btn btn-primary btn-block" id="submitinput">登录</button>
+					</div>
+					<div id="descDiv">
+						<span id="descSpan"></span>
+					</div>
+				</form>
+				<iframe name="postTo" style="display:none"></iframe>
+			</div>
+
+		</div>
+		<!--密码错误提示模态框-->
+		<div class="modal fade" id="descmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop='true'>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<br>
+						<br>
+						<h4 class="modal-title" id="myModalLabel">密码错误 
+                			</h4>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary btn-lg" id="confirmBtn" data-dismiss="modal">确认
+						</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal -->
+		</div>
+
+		<!--未注册提示模态框-->
+		<div class="modal fade" id="descmodal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop='true'>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<br>
+						<br>
+						<h4 class="modal-title" id="myModalLabel1">无此用户，请注册！ 
+                			</h4>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary btn-lg" id="registerBtn" data-dismiss="modal">注册
+						</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal -->
+		</div>		
+
+		<!-- 自定义js -->
+		<link rel="stylesheet" type="text/css" href="../css/login.css">
+		<!-- 自定义js -->
+		<script type="text/javascript" src="../js/constants.js"></script>
+		<script type="text/javascript" src="../js/login.js"></script>
+
+	</body>
+
+</html>

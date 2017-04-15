@@ -1,5 +1,6 @@
 package groovy
 
+import groovy.swing.impl.DefaultAction
 
 class GTest implements GroovyInterceptable{
 
@@ -9,7 +10,8 @@ class GTest implements GroovyInterceptable{
 			println "this is ${i}:${val}"
 		}
 	}
-
+	
+	
 	void hello1(){
 		println "hello1"
 	}
@@ -33,6 +35,9 @@ class GTest implements GroovyInterceptable{
 	void setProperty(String property, Object newVlaue){ // 重写方法
 		throw new Exception("wrote to property $property")
 	}
+
+
+
 
 
 

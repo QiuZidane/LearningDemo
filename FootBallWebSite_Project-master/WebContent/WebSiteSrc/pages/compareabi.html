@@ -1,0 +1,172 @@
+<!-- /***************************
+*
+*   created by qiusd on 2016-02-26
+*   cooperation xxx
+*
+*   1、index.html是主页面
+*   2、导航按钮会将其他页面加载到index.html的<div class="middleDiv" id="middleDivDes"> 
+*   3、其他页面样式参照welcomepage.html/welcomepage.css编写
+*
+*   ***能力对比页面***
+*     如何设置我的属性：标杆参考：你见过广研球员最快速度值为100，一般为50，最慢为0。
+*   
+****************************  / -->
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>足球大本营</title>
+
+		<link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+		<script type="text/javascript" src="../js/third/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/third/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../js/third/ajaxrequest.js"></script>
+		<script type='text/javascript' src="../js/third/echarts.min.js"></script>
+
+	</head>
+
+	<body>
+		<div class="middleDiv" id="middleDivDes">
+			<!-- 说明 -->
+			<div id="explainDiv">
+				<div class="btn-group" id="player1">
+					<button type="button" class="btn btn-primary dropdown-toggle btn-block btn-player1" data-toggle="dropdown" id="selectedplayer1" tag="选择球员">
+							选择球员1 <span class="caret"></span>
+						</button>
+					<ul class="dropdown-menu" role="menu" id="player1list" style="height:600px;overflow:scroll">
+						<!--<li role="presentation" class="dropdown-header">广州测试部</li>							
+							<li><a href="#">翁子君</a></li>
+							<li role="presentation" class="divider"></li>						
+							<li role="presentation" class="dropdown-header">广州研发支持部</li>
+							<li><a href="#">丘士丹</a></li>
+							<li><a href="#">黄振华</a></li>
+							<li role="presentation" class="divider"></li>-->
+					</ul>
+				</div>
+				<div id="vsDIV">
+					<button type="button" class="btn btn-success btn-lg btn-block btn-circle" id="compareBTN">VS</button>
+				</div>
+				<div class="btn-group" id="player2">
+					<button type="button" class="btn btn-primary dropdown-toggle btn-block btn-player2" data-toggle="dropdown" id="selectedplayer2" tag="选择球员">
+							选择球员2 <span class="caret"></span>
+						</button>
+					<ul class="dropdown-menu" role="menu" id="player2list" style="height:600px;overflow:scroll">
+						<!--<li role="presentation" class="dropdown-header">广州测试部</li>							
+							<li><a href="#">翁子君</a></li>
+							<li role="presentation" class="divider"></li>
+							<li><a href="#">牟宁</a></li>
+							<li role="presentation" class="divider"></li>
+							<li role="presentation" class="dropdown-header">广州研发支持部</li>
+							<li><a href="#">丘士丹</a></li>
+							<li><a href="#">黄振华</a></li>
+							<li role="presentation" class="divider"></li>-->
+					</ul>
+				</div>
+			</div>
+			<!-- 卡位用 -->
+			<div id="chart_Div1">
+
+			</div>
+			<!--TotalAbiChart 总体能力对比雷达图-->
+			<div id="highchartDiv">
+				<div class="abbsBG">
+					<div id="highchartDivtitle">总体:</div>
+				</div>
+				<div id="highchart_abbsdiv">
+				</div>
+			</div>
+			<!-- 体质 -->
+			<div id="bodeDiv">
+				<div class="abbsBG">
+					<div id="bodeDivtitle">体质:</div>
+				</div>
+				<div id="body_abbsdiv">
+				</div>
+			</div>
+
+			<!-- 技术能力 -->
+			<div id="tech_Div">
+				<div class="abbsBG">
+					<div id="tech_Divtitle">技术:</div>
+				</div>
+				<div id="tech_abbsdiv">
+				</div>
+			</div>
+
+			<!-- 特殊 -->
+			<div id="spec_Div">
+				<div class="abbsBG">
+					<div id="spec_Divtitle">特殊:</div>
+				</div>
+				<div id="spec_abbsdiv">
+				</div>
+			</div>
+
+			<!-- 卡位用 -->
+			<div id="chart_Div2">
+			</div>
+
+			<!-- 进攻能力 -->
+			<div id="attack_Div">
+				<div class="abbsBG">
+					<div id="attack_Divtitle">进攻:</div>
+
+				</div>
+				<div id="attack_abbsdiv">
+				</div>
+			</div>
+
+			<!-- 防守能力 -->
+			<div id="defen_Div">
+				<div class="abbsBG">
+					<div id="defen_Divtitle">防守:</div>
+
+				</div>
+				<div id="defen_abbsdiv">
+
+				</div>
+			</div>
+			<!-- 卡位用 -->
+			<div id="chart_Div3">
+			</div>
+			<div id="submitResultDesc">
+			</div>
+			<!-- middleDiv结束 -->
+		</div>
+
+		<!--相关提示的模态框
+		1、未选择队员
+		2、10秒钟内重复提交-->
+		<div class="modal fade" id="descmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop='true'>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<br>
+						<br>
+						<h4 class="modal-title" id="myModalLabel">请选择球员1/球员2 
+                			</h4>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary btn-lg" id="confirmBtn" data-dismiss="modal">确 认
+						</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal -->
+		</div>
+
+		<!--自定义-->
+		<link rel="stylesheet" type="text/css" href="../css/compareabi.css">
+		<!--自定义-->
+
+		<script type="text/javascript" src="../js/compareabi.js"></script>
+		<script type="text/javascript" src="../js/constants.js"></script>
+
+		<script type="text/javascript">
+			GetAllPlayerData()
+		</script>
+	</body>
+
+</html>

@@ -32,7 +32,8 @@ public class MySendPacket {
 			throws PcapNativeException, NotOpenException, UnknownHostException {
 		String strSrcIpAddress = "192.168.1.7"; // 源地址
 		// String strDstIpAddress = "60.205.8.179"; // CSDN帖子发布
-		String strDstIpAddress = "116.251.204.42"; // 阮一峰博客
+//		String strDstIpAddress = "116.251.204.42"; // 阮一峰博客
+		String strDstIpAddress = "192.168.1.6"; // 
 		String filter = "src host " + strSrcIpAddress + " and dst host " + strDstIpAddress;
 
 		System.out.println(COUNT_KEY + ": " + COUNT);

@@ -1,0 +1,138 @@
+<!-- /***************************
+*
+*   created by qiusd on 2016-03-06
+*
+*   1、index.html是主页面 
+*   2、导航按钮会将其他页面加载到index.html的<div class="middleDiv" id="middleDivDes"> 
+*   3、其他页面样式参照welcomepage.html/welcomepage.css编写
+*
+*   ***用户注册页面***
+*   a、必须登录了才能维护个人属性
+*   
+****************************  / -->
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>足球大本营</title>
+	</head>
+
+	<body>
+		<div class="middleDiv" id="middleDivDes">
+			<div id="registerDiv">
+				<!--标题-->
+				<div id="registertitle"></div>
+				<form role="form" method="post" target="postTo">
+					<!--用户头像-->
+					<div id="selectedimg">
+						<img src="../img/userimg/playerhead1.png" id='selectedimgId'/>
+					</div>
+					<div id="userimgBtn">
+						<button type="button" class="btn btn-danger dropdown-toggle btn-block btn-player1" id="selectimg" tag="选择头像">
+							选择头像 &nbsp;&nbsp;
+						</button>
+					</div>
+					<!--选择部门-->
+					<div class="btn-group" id="department">
+						<button type="button" class="btn btn-default dropdown-toggle btn-block" data-toggle="dropdown" id="mydepartment" tag="选择部门">
+							选择部门 <span class="caret"></span>
+
+						</button>
+						<ul class="dropdown-menu" role="menu" id="departmentlist">
+							<li><a href="#">广州测试部</a></li>
+							<li><a href="#">广州研发支持部</a></li>
+							<li><a href="#">广州海外支持部</a></li>
+							<li><a href="#">广州开发一部</a></li>
+							<li><a href="#">广州开发二部</a></li>
+							<li><a href="#">广州开发三部</a></li>
+							<li><a href="#">广州开发四部</a></li>
+							<li><a href="#">广州行政部</a></li>
+							<li><a href="#">珠海研发部</a></li>
+							<li><a href="#">北京研发部</a></li>
+							<li><a href="#">上海研发部</a></li>
+							<li><a href="#">杭州研发部</a></li>
+							<li><a href="#">其他机构</a></li>
+						</ul>
+					</div>
+					<!--用户名-->
+					<div class="form-group" id="username">
+						<input type="text" class="form-control" id="nameinput" placeholder="Username">
+					</div>
+					<!--密码-->
+					<div class="form-group" id="password">
+						<input type="password" class="form-control" id="passwordinput" placeholder="Passowrd">
+					</div>
+
+					
+
+					<div id="registerbtn">
+						<button type="submit" class="btn btn-primary btn-block" id="submitinput">注 册</button>
+					</div>
+				</form>
+				<iframe name="postTo" style="display:none"></iframe>
+			</div>
+		</div>
+		<!--头像选择模态框-->
+		<div class="modal fade" id="userimgmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop='true'>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<br>
+						<br>
+						<h4 class="modal-title" id="myModalLabel1">请选择头像: 
+                			</h4>
+						<br>
+						<p class="face">
+							<img tag='' src="../img/userimg/face1.png" />
+							<img tag='' src="../img/userimg/face2.png" />
+							<img tag='' src="../img/userimg/face3.png" />
+							<img tag='' src="../img/userimg/face4.png" />
+							<img tag='' src="../img/userimg/face5.png" />
+							<img tag='' src="../img/userimg/face6.png" />
+							<img tag='' src="../img/userimg/face7.png" />
+						</p>
+						<p class="face">
+							<img tag='' src="../img/userimg/face8.png" />
+							<img tag='' src="../img/userimg/face9.png" />
+							<img tag='' src="../img/userimg/face10.png" />
+							<img tag='' src="../img/userimg/face11.png" />
+							<img tag='' src="../img/userimg/face12.png" />
+							<img tag='' src="../img/userimg/face13.png" />
+							<img tag=''src="../img/userimg/face14.png" />
+						</p>
+						<p class="face">
+							<img tag='' src="../img/userimg/face15.png" />
+							<img tag='' src="../img/userimg/face16.png" />
+							<img tag='' src="../img/userimg/face17.png" />
+							<img tag='' src="../img/userimg/face18.png" />
+							<img tag='' src="../img/userimg/face19.png" />
+							<img tag='' src="../img/userimg/face20.png" />
+							<img tag='' src="../img/userimg/face21.png" />
+						</p>
+
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary btn-lg" id="selectimgBtn" data-dismiss="modal">确定
+						</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal -->
+		</div>
+
+		<!-- 第三方引用 -->
+		<script type="text/javascript" src="../js/third/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/third/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../js/third/ajaxrequest.js"></script>
+		<script type="text/javascript" src="../js/third/base64.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap.min.css">
+		<!-- 自定义的css和js -->
+		<link rel="stylesheet" type="text/css" href="../css/register.css">
+		<script type="text/javascript" src="../js/constants.js"></script>
+		<script type="text/javascript" src="../js/register.js"></script>
+
+	</body>
+
+</html>

@@ -1,0 +1,234 @@
+<!-- /***************************
+*
+*   created by huangzh on 2016-03-21
+*   cooperation xxx
+*
+*   1、index.html是主页面
+*   2、导航按钮会将其他页面加载到index.html的<div class="middleDiv" id="middleDivDes"> 
+*   3、其他页面样式参照welcomepage.html/welcomepage.css编写
+*
+*   ***分队页面***
+*   
+****************************  / -->
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<!--适配IE11-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<script type="text/javascript" src="../js/third/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/third/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../js/json2.js"></script>
+		<script type="text/javascript" src="../js/draw.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../css/draw.css" rel="stylesheet">
+		<title>足球大本营</title>
+	</head>
+
+	<body>
+		<div class="middleDiv" id="middleDivDes" style="height:100%">
+			<div id="drawContent">
+				<div class="teamAreaLeft">
+					<div class="teamName"><img src="../img/soccer64.png" />A队</div>
+					<div class="playerList">
+						<!-- A队球员列表 -->
+						<ul id="teamA">
+
+						</ul>
+					</div>
+				</div>
+				<div class="teamAreaLeft">
+					<div class="teamName"><img src="../img/soccer64.png" />B队</div>
+					<div class="playerList">
+						<!-- B队球员列表 -->
+						<ul id="teamB">
+
+						</ul>
+					</div>
+				</div>
+
+				<!-- 选择球员并随机派到其中一队 -->
+				<div class="pickArea">
+					<div class="pickAreaUp">
+						<div class="teamName">抽签区</div>
+						<!-- 候选区球员列表 -->
+						<div class="pickingPlayer" id="pickingPlayer">
+
+						</div>
+						<div class="buttonArea">
+							<button id="pick" class="drawButtonLeft" onclick="pickPlayer();">选人</button>
+							<button id="draw" class="drawButtonRight" onclick="drawPlayer();">抽签</button>
+						</div>
+						<div class="buttonArea">
+							<button id="reset" class="drawButtonLeft" onclick="clickReset();">重置</button>
+							<button id="submit" class="drawButtonRight" onclick="clickSubmit();">提交</button>
+						</div>
+					</div>
+					<div class="pickAreaDown">
+						<div class="teamName">说明</div>
+						<ul>
+							<li>【选人】将从球员库中选出目前数据至TOP的四名球员，并将其置入抽签区中。</li>
+							<li>【抽签】将把抽签区中的四名球员随机分派到四支球队中。</li>
+							<li>【提交】将确认当前抽签结果并将其提交。</li>
+							<li>【重置】将重置当前抽签结果。</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="teamAreaRight">
+					<div class="teamName"><img src="../img/soccer64.png" />D队</div>
+					<div class="playerList">
+						<!-- C队球员列表 -->
+						<ul id="teamC">
+
+						</ul>
+					</div>
+				</div>
+				<div class="teamAreaRight">
+					<div class="teamName"><img src="../img/soccer64.png" />C队</div>
+					<div class="playerList">
+						<!-- D队球员列表 -->
+						<ul id="teamD">
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 【候选区】为空时，点击【抽签】按钮报的警告 -->
+		<div class="modal fade warnningAlert" id="drawWarnning">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+						<h4><span class="label label-warning">注意</span></h4>
+					</div>
+					<div class="modal-body">
+						<p>当前【候选区】没有球员。</p>
+						<p>如需进行抽签，请先点击【选人】按钮，抽选球员进入【候选区】。</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 所有球员均被分配队伍后，点击【选人】按钮报的警告 -->
+		<div class="modal fade warnningAlert" id="pickWarnning">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+						<h4><span class="label label-warning">注意</span></h4>
+					</div>
+					<div class="modal-body">
+						<p>没有可选球员了，因所有球员已被分配。</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 点击【重置】按钮，但无可重置数据时报的警告 -->
+		<div class="modal fade warnningAlert" id="resetErrorWarnning">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+						<h4><span class="label label-warning">注意</span></h4>
+					</div>
+					<div class="modal-body">
+						<p>当前没有可重置的数据。</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 点击【重置】按钮，有可重置数据时的警告 -->
+		<div class="modal fade warnningAlert" id="resetWarnning">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+						<h4><span class="label label-warning">重置抽签结果</span></h4>
+					</div>
+					<div class="modal-body">
+						<div>
+							<input id="resetCodeInput" class="input-block-level" type="text" placeholder="请输入验证码" data-toggle="tooltip" data-placement="top" data-title="请输入正确的验证码" />
+							<span id="resetCode" class="text-info"></span>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+						<button type="button" class="btn btn-danger" onclick="checkResetCode();">重置</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 点击【提交】按钮，但无可提交数据时报的警告 -->
+		<div class="modal fade warnningAlert" id="submitErrorWarnning">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+						<h4><span class="label label-warning">注意</span></h4>
+					</div>
+					<div class="modal-body">
+						<p>当前没有可提交的数据。</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 点击【提交】按钮，有可提交数据时的警告 -->
+		<div class="modal fade warnningAlert" id="submitWarnning">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+						<h4><span class="label label-success">提交分组结果</span></h4>
+					</div>
+					<div class="modal-body">
+						<div>
+							<input type="password" id="submitCodeInput" class="input-block-level" type="text" placeholder="请输入密码" data-toggle="tooltip" data-placement="top" data-title="请输入正确的验证码" />
+							<span id="submitCode" class="text-info"></span>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+						<button type="button" class="btn btn-success" onclick="checkSubmitCode();">提交</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+//		if (localStorage.getItem('playername') != 'admin') {
+//			$('#drawContent').css({
+//				'background': 'url(../img/fb0.jpg) no-repeat 100% 100%',
+//				'height': '800px',
+//				'color': 'white'
+//			});
+//			$('#drawContent').html(
+//				"<br>\
+//				<br>\
+//				<br>\
+//				<h1>&nbsp;&nbsp;&nbsp;&nbsp;非管理员无法使用该页面</h1>"
+//			);
+//		}
+	</script>
+
+</html>
