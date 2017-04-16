@@ -9,9 +9,10 @@ public class CSMConstant {
 	public static final String SHEET_NAME_PRE = "data";
 	public static final String DATA_FILE_PRE = "temp/packet";
 	public static final int CONTENT_ROWS = 65500;
-	public static final int MAX_EXCEL_ROWS = 3530;
-	public static final int MAX_SHEET_NUM = 10;
+	public static final int MAX_EXCEL_ROWS = 35530;
+	public static final int MAX_SHEET_NUM = 1;
 	public static final String[] TITLE_LIST = {"ip","port","mac"};
+	public static final String SQLITE_DB_NAME = "csm.db";
 	
 	private static String CURRENT_DATA_FILE = null;
 	

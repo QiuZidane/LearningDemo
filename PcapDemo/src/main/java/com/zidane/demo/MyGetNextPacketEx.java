@@ -172,7 +172,7 @@ public class MyGetNextPacketEx {
 				boolean con1 = packet.toString().contains("Source address: /192.168.1.7");
 				boolean con2 = packet.toString().contains("Destination address: /192.168.1.6");
 				
-				if (con1 && con2) {
+				if (true) {
 					System.out.println(handle.getTimestamp());
 					System.out.println(packet);
 				}
