@@ -1,8 +1,5 @@
 package com.demo;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.math.BigDecimal;
 import java.text.DateFormatSymbols;
 import java.util.ArrayList;
@@ -204,7 +201,7 @@ public class MyClass1 {
 
 	}
 
-	public static void main(String... args) throws IOException {
+	public static void main(String... args) {
 
 		MyClass1 mc1 = new MyClass1("abc", 123);
 
@@ -229,8 +226,6 @@ public class MyClass1 {
 
 		int[][] a = new int[][] { { 1, 2 }, { 3, 4 } };
 		System.out.println(Arrays.toString(a[0])); // [1, 2]
-
-
 
 	}
 

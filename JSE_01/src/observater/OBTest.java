@@ -14,9 +14,9 @@ public class OBTest {
 		jack.addObserver(zidane);
 		jean.cry();
 		jack.cry();
-//		Thread.sleep(2000);
-//		jean.laugh();
-//		jean.laugh();
+		Thread.sleep(2000);
+		jean.laugh();
+		jean.laugh();
 		
 	}
 

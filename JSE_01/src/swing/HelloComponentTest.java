@@ -4,11 +4,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.EventQueue;
 import java.awt.Graphics;
-import java.awt.GraphicsEnvironment;
-import java.util.Arrays;
-import java.util.concurrent.TimeUnit;
 
-import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.WindowConstants;

@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.logging.Logger;
 
 import excel.CSMConstant;
-import groovy.transform.builder.InitializerStrategy.SET;
 
 public class SQLiteJDBC {
 

@@ -12,6 +12,7 @@ import java.util.logging.Logger;
  * <p>
  * 提供get和set方法
  * <p>
+ * 
  * @author QZidane # 2017-02-26
  *
  */
