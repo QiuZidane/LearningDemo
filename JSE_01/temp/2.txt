@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="utf-8"?>  <!DOCTYPE HTML><html><head>
+<meta charset="UTF-8">
+<meta http-equiv="Cache-control" content="no-cache" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no" />
+<meta name="keywords" content="威锋论坛,iPhone6s,iPhone 7,iPad Pro,iPhone5s,iPhone6,iOS9,Apple Watch论坛,macbook,mac,mabook air,macbook pro,iMAC,mac mini,雷电,越狱,维修,价格,购买,软件,iOS,游戏,iPad3,iPad2 电影,越狱,破解,卡帖,换屏" />
+<meta name="description" content="威锋,千万果粉大本营,这个星球上人气最旺的苹果系列产品论坛,第一苹果Apple互动媒体,涵盖Apple的移动iPhone6,iOS8越狱,AppleWatch,iPad5,iPod touch4,Mac等全系列产品论坛，7*24小时Apple资讯，iPhone,iPad越狱讨论,IOS软件游戏评测，Apple周边报道以及评测，限时免费信息提供。 ,威锋论坛" />
+<title>iPhone 7 论坛|iPhone 6s 论坛|iPhone6s Plus论坛|iOS 10.0 越狱|iPad Pro|Mac|苹果|威锋论坛 -  手机版 - Powered by Discuz!</title>
+<link rel="stylesheet" href="static/image/mobile/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="./source/plugin/feng_mobile/template/css/jquery.mmenu.css" type="text/css" media="all">
+<script src="/bbs_v4/js/jquery.min.js" type="text/javascript" type="text/javascript"></script>
+<script type="text/javascript">var STYLEID = '4', STATICURL = 'static/', IMGDIR = 'static/image/common', VERHASH = 'C61', charset = 'utf-8', discuz_uid = '0', cookiepre = 'xIka_2132_', cookiedomain = '', cookiepath = '/', showusercard = '0', attackevasive = '0', disallowfloat = '', creditnotice = '', defaultstyle = '', REPORTURL = 'aHR0cDovL2Jicy5mZW5nLmNvbS8=', SITEURL = 'http://bbs.feng.com/', JSPATH = 'static/js/';</script>
+<script src="static/js/mobile/common.js?C61" type="text/javascript" charset="utf-8"></script>
+<link type="text/css" rel="stylesheet" href="./source/plugin/feng_mobile/template/css/mobile_feng.css" />
+<script src="./source/plugin/feng_mobile/template/js/jquery.mmenu.min.js" type="text/javascript"></script>
+
+<link rel="apple-touch-icon" href="./source/plugin/feng_mobile/template/images/touch-icon-iphone.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./source/plugin/feng_mobile/template/images/touch-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./source/plugin/feng_mobile/template/images/touch-icon-iphone-retina.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./source/plugin/feng_mobile/template/images/touch-icon-ipad-retina.png">
+<link rel="apple-touch-icon-precomposed" href="./source/plugin/feng_mobile/template/images/touch-icon-ipad-retina.png"/>
+<meta name="apple-itunes-app" content="app-id=981437434, app-argument=http://bbs.feng.com/forum.php?">
+</head>	<script type="text/javascript">
+   $(document).ready(function() {
+				var $menu = $('nav#menu'),
+					$html = $('html, body');
+				$menu.mmenu();
+				$menu.find( 'li > a' ).on(
+					'click',
+					function()
+					{
+						var href = $(this).attr( 'href' );
+						if ( href.slice( 0, 1 ) == '#' )
+						{
+							$menu.one(
+								'closed.mm',
+								function()
+								{
+									setTimeout(
+										function()
+										{
+											$html.animate({
+												scrollTop: $( href ).offset().top
+											});
+										}, 10
+									);
+								}
+							);
+						}
+					}
+				);
+			});
+
+</script><body class="bg">
+<div style="width:0;height:0;overflow:hidden;"><img src="./source/plugin/feng_mobile/template/images/share_logo.png" /></div>
+<div style="width:0; height:0"><img src="http://bbs.feng.com/source/plugin/feng_mobile/template/images/mobile_bg.png" width="0" height="0"></div>
+<!--
+<div class="wp_show">
+<a href='http://yes1.feng.com/click.php?n=a9b26c13&zoneid=149'><img src='http://yes1.feng.com/view.php?what=zone:149&n=a9b26c13' border='0' alt=''></a>
+</div>
+    -->
+	
+<!-- header start -->
+
+<div class="header" style="margin-bottom:0;">
+               	<header>
+                    <div class="wrap apptype">
+                    <div class="l_tbn"><a href="#menu" class="l_sidebar glyphicon glyphicon-th-large"></a></div>
+                   <h1 class="logo"><a href="/forum.php?mobile=2"><img src="./source/plugin/feng_mobile/template/images/logo_h1.png" height="32" alt="威锋网" /></a></h1>
+<a style="display:block" class="r_user" href="member.php?mod=logging&action=login&amp;mobile=2"><i class="Hidden">个人中心</i></a>
+<a style="display:none"  class="r_nav more" href="javascript:void(0)"><i class="Hidden">导航</i></a>	
+                    </div>
+                </header>
+</div>
+<!-- header end -->
+<script src="./source/plugin/feng_mobile/template/js/jquery-migrate-1.1.1.js" type="text/javascript"></script> 
+<!--板块 start-->
+<div class="cellList_tab" style="margin-top:0;">
+<ul>
+<li class="cornerrad-l liname"><a href="javascript:;" id="b01">新闻</a></li>
+<li class="cornerrad-c liname"><a href="javascript:;" id="b02">热点</a></li>
+<li class="cornerrad-r liname"><a href="javascript:;" id="b03">论坛</a></li>
+</ul>
+</div>
+<!--板块 over-->
+
+
+<div style="z-index: 50;width: 100%;margin-top: -20px;">﻿<section class="wrap apptype_list" id="apptype_list" style="display:none">
+    <ul class="menu_l">
+    	                                                 <li><a href="plugin.php?id=feng_mobile&amp;do=news&amp;app=0&amp;mobile=2" class='hover' >头条</a></li>
+                                                                  <li><a href="plugin.php?id=feng_mobile&amp;do=news&amp;app=1&amp;mobile=2" >滚动</a></li>
+                                                                  <li><a href="plugin.php?id=feng_mobile&amp;do=news&amp;app=2&amp;mobile=2" >锋观点</a></li>
+                                                                  <li><a href="plugin.php?id=feng_mobile&amp;do=news&amp;app=3&amp;mobile=2" >游戏</a></li>
+                                                                  <li><a href="plugin.php?id=feng_mobile&amp;do=news&amp;app=4&amp;mobile=2" >软件</a></li>
+                                                                  <li><a href="plugin.php?id=feng_mobile&amp;do=news&amp;app=5&amp;mobile=2" >锋科技</a></li>
+                                                                  <li><a href="plugin.php?id=feng_mobile&amp;do=news&amp;app=6&amp;mobile=2" >新手</a></li>
+                                                                  <li><a href="plugin.php?id=feng_mobile&amp;do=news&amp;app=7&amp;mobile=2" >教程</a></li>
+                                                                  <li><a href="plugin.php?id=feng_mobile&amp;do=news&amp;app=8&amp;mobile=2" >话题</a></li>
+                                                                  <li><a href="plugin.php?id=feng_mobile&amp;do=news&amp;app=9&amp;mobile=2" >限免</a></li>
+                                                                  <li><a href="plugin.php?id=feng_mobile&amp;do=news&amp;app=10&amp;mobile=2" >专题</a></li>
+                                                                  <li><a href="plugin.php?id=feng_mobile&amp;do=news&amp;app=11&amp;mobile=2" >新手必装</a></li>
+                                                                  <li><a href="plugin.php?id=feng_mobile&amp;do=news&amp;app=12&amp;mobile=2" >图集</a></li>
+                               
+             
+    </ul>
+</section>
+
+</div>
+<!-- ajax start -->
+
+<script>
+$(document).ready(function(){
+// 请求Ajax的话就加载这个图片
+$("#loading").ajaxStart(function(){         
+　　    $(this).html("<img src='static/image/mobile/images/icon_load.gif'>");   
+        $(this).css("display", "block");
+    });
+    $("#loading").ajaxSuccess(function(){
+         $(this).html("加载完成!");
+         $(this).css("display", "none");
+    });
+    // 判断是从哪个li点击进来的
+var name = "";
+ if(name!=""){	 
+ 	$('.liname').removeClass('hover');
+ 	$('.cornerrad-l').addClass('hover');		   
+  	$('.r_user').hide();
+   	$('.r_nav').show();
+  	var content=$('#Container');
+  	var imgcontent=$('.newcontent');
+  	var objbtn=$('.btn-more-left');
+page=1;
+$('#mobileurl').attr('href','http://www.feng.com');
+  	$.ajax({
+url:'/plugin.php?id=feng_mobile&do=news&app=0',
+type: 'POST',
+data:{page:page},
+dataType: 'jsonp',
+jsonp: "callback",
+success: function(result){
+imgcontent.html(result['imgdata']);
+content.html(result['data']);
+objbtn.attr('name',page);	
+$('.liname').removeClass('hover');
+ 			$('.cornerrad-l').addClass('hover');	
+ 			objbtn.show();			
+$('#wp').css('display','none');
+$('#xxx').css('display','block');
+  				$('#wrap').css('display','none');	
+$(window).resize(function(){
+var width=$('#js-com-header-area').width();
+$('.touchslider-item .slider_img').css('width',width);
+$('.touchslider-viewport').css('height',175*(width/320));
+}).resize();	
+$(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
+}
+})
+}else{
+$('.cornerrad-r').addClass('hover');	
+$('#wp').css('display','block')
+}
+// 点击热点
+    $("#b02").click(function(){	
+  	$('.r_user').hide();
+   	$('.r_nav').show();
+$('.liname').removeClass('hover');
+$('.cornerrad-c').addClass('hover');	
+  	var content=$('.hot_post');
+  	var objbtn=$('.btn-more-right');
+page=1;
+if(content.html().indexOf('div')<0){
+$.ajax({
+url:'/plugin.php?id=feng_mobile&do=index',
+type: 'POST',
+data:{page:page},
+dataType: 'jsonp',
+jsonp: "callback",
+success: function(result){
+//alert(result['data']);
+content.html(result['data']);	
+objbtn.attr('name',page);	
+$('#wp').css('display','none');
+$('#xxx').css('display','none');
+  				$('#wrap').css('display','block');	
+  				objbtn.show();		
+}
+});
+}else{
+$('.liname').removeClass('hover');
+ 	$('.cornerrad-c').addClass('hover');		
+$('#wp').css('display','none');
+$('#xxx').css('display','none');
+  		$('#wrap').css('display','block');	
+  		objbtn.show();
+}
+$('#mobileurl').attr('href','http://bbs.feng.com/forum.php?mobile=no');
+});
+// 点击新闻
+    $("#b01").click(function(){
+   	$('.r_user').hide();
+   	$('.r_nav').show();
+$('.liname').removeClass('hover');
+$('.cornerrad-l').addClass('hover');
+  	var content=$('#Container');
+  	var imgcontent=$('.newcontent');
+  	var objbtn=$('.btn-more-left');
+page=1;
+if(content.html().indexOf('div')<0){
+  	$.ajax({
+url:'/plugin.php?id=feng_mobile&do=news&app=0',
+type: 'POST',
+data:{page:page},
+dataType: 'jsonp',
+jsonp: "callback",
+success: function(result){
+//alert(result['data'])
+imgcontent.html(result['imgdata']);
+content.html(result['data']);
+objbtn.attr('name',page);	
+ 			objbtn.show();			
+$('#wp').css('display','none');
+$('#xxx').css('display','block');
+  				$('#wrap').css('display','none');	
+$(window).resize(function(){
+var width=$('#js-com-header-area').width();
+$('.touchslider-item .slider_img').css('width',width);
+$('.touchslider-viewport').css('height',175*(width/320));
+}).resize();	
+$(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
+$('#mobileurl').attr('href','http://www.feng.com');
+}
+});
+  }else{
+  		$('.liname').removeClass('hover');
+ 	$('.cornerrad-l').addClass('hover');	
+ 	objbtn.show();			
+$('#wp').css('display','none');
+$('#xxx').css('display','block');
+  		$('#wrap').css('display','none');	
+$('#mobileurl').attr('href','http://www.feng.com');	
+  }
+});
+
+// 点击论坛
+$("#b03").click(function(){
+   		$('.liname').removeClass('hover');
+ 	$('.cornerrad-r').addClass('hover');	
+ 	$('.r_user').show();
+   		$('.r_nav').hide();
+  	$('#wp').css('display','block');
+  		$('#wrap').css('display','none');
+  		$('#xxx').css('display','none');
+$('#mobileurl').attr('href','http://bbs.feng.com/forum.php?mobile=no');
+})
+// 加载更多
+$('.btn-more-right').click(function(){
+var container=$('.hot_post');
+var objbtn=$('.btn-more-right');
+page=objbtn.attr('name');
+page++;
+$.ajax({
+url:'/plugin.php?id=feng_mobile&do=index',
+type: 'POST',
+data:{page:page},
+dataType: 'jsonp',
+jsonp: "callback",
+success: function(result){
+//alert(result['data']);
+container.append(result['data']);
+if(result['lastPage']==false){
+objbtn.attr('name',page);
+}else{
+objbtn.hide();
+}				
+}
+});
+});
+$('.btn-more-left').click(function(){
+var container=$('#Container');
+var objbtn=$('.btn-more-left');
+page=objbtn.attr('name');
+page++;
+$.ajax({
+url:'/plugin.php?id=feng_mobile&do=news&app=0',
+type: 'POST',
+data:{page:page},
+dataType: 'jsonp',
+jsonp: "callback",
+success: function(result){
+//alert(result['data']);
+container.append(result['data']);
+
+if(result['lastPage']==false){
+objbtn.attr('name',page);
+}else{
+objbtn.hide();
+}				
+}
+});
+});
+$('.apptype').children('.more').click(function(){
+$('#apptype_list').toggle();	
+});
+});
+</script>
+<!-- ajax请求的时候加载的图片 -->
+<div id="loading" style="display:none"></div>
+<!-- hot -->
+<div id="wrap" style="display:none">
+<section>
+<ul class="hot_post">
+<!-- content -->
+</ul>
+    </section>
+         <div class="btn-more-right" name='1'>展开更多</div>
+    </div>
+<!-- endhot -->
+<!-- news -->
+<script src="./source/plugin/feng_mobile/template/js/jquery.touchslider.min.js" type="text/javascript" type="text/javascript" ></script>
+<div id="xxx" style="display:none">
+
+<div class="newcontent">		
+<!-- content -->		
+</div>
+ <section>
+            <ul class="c_list" id="Container">
+     		</ul>
+     </section>
+      <div class="btn-more-left" name='1'>展开更多</div>
+    </div>
+<!-- endnews -->
+
+<!-- ajax end -->
+
+<!-- main forumlist start -->
+<div class="wp wm" id="wp" style="display:none;"><div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_491">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">WeiPhone 十周年庆 活动区</a></h2>
+</div>
+<div id="sub_forum_491" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=488&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/c3/common_488_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">10｜第九届『WeiPhone 摄影大赛』第二季</div>
+<div class="posthreads"><p>✩✰十周年庆✰✩ 威锋传统活动 - 『WeiPhone 摄影大赛』第二季</p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+<div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_445">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">Apple (中国)活动专区</a></h2>
+</div>
+<div id="sub_forum_445" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=622&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/1a/common_446_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">Apple (中国)活动专区</div>
+<div class="posthreads"><p>Apple（中国）专区，讨论 Apple 零售店里最新的精彩活动和消息的专区，欢迎关注！</p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+<div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_486">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">游戏中心</a></h2>
+</div>
+<div id="sub_forum_486" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=511&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/a7/common_511_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">1</span>游戏中心</div>
+<div class="posthreads"><p>爱好游戏的你怎能错过！单机or网游在这里可以畅所欲言，攻略、试玩or锋友对战在这里应有尽有。</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=584&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/f5/common_584_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">1</span>兔兔助手</div>
+<div class="posthreads"><p>无需越狱一键安装兔兔助手 海量资源免费下载 <br />
+<br />
+汉化、破解、无限金币，这里是单机游戏最后的家园<br />
+无需输入Apple ID，绝不盗号刷榜，做良心的手机助手<br />
+iPhone的贴心手机助手 无线数据迁移、垃圾清理、内存加速等众多独家功能任你体验。<br />
+<strong>【进入兔兔助手官网】</strong><br />
+链接地址：<br />
+<br />
+免越狱扫码一键安装兔兔助手正版 汉化游戏免越狱安装<br />
+<img id="aimg_h09nq"  class="zoom" src="http://images.weiphone.net/data/attachment/forum/201511/04/174415btdm5lnz50qnzazb.png"   border="0" alt="" /><br />
+<br />
+<div align="left"><font size="3"><strong>--------------------------------------------------------------公告--------------------------------------------------------------</strong></font></div><br />
+<br />
+<br />
+<br />
+<br />
+1、本版兔兔助手专区，为讨论兔兔助手相关事宜，无关帖子请发布在论坛对应版块。<br />
+2、为保持干净整洁的版面，请大家根据帖子内容添加正确的分类标签。<br />
+3、禁止谈论话题涉及政治，人身攻击，互骂，互扣等<br />
+4、禁止一切交易，隐藏性交易的内容出现。如广告，求购，代购等<br />
+5、禁止主题出现以QQ，QQ群，微信，微信公众号，微博，网赚等形式的推广现象，拒绝外站链接。<br />
+6、禁止标题党，谣言，误导，冒名发布原创帖，无意义回复，转载请注明出处。<br />
+对于违反规定的会员，视情节严重程度，版主有权采取 协助修改、扣分、压帖、删除、限期禁言、永久禁言、封禁 IP 等管理手段处理。<br />
+对于积极参与讨论，对版块作出突出贡献的会员，版主有权采取 加分、加亮、加精 等管理手段奖励。<br />
+请会员常常关注本条例，及时自行清理违规内容。以上条款即日生效。</p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+<div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_522">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">威锋活动</a></h2>
+</div>
+<div id="sub_forum_522" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=371&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/41/common_371_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">威锋网活动专区</div>
+<div class="posthreads"><p>精彩活动推荐：<br />
+ <br />
+<br />
+ &nbsp;&nbsp;</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=40&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/d6/common_40_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">1</span>威锋摄影棚 - iOS摄影 每周展</div>
+<div class="posthreads"><p><strong>用iOS设备捕捉你身边的点滴精彩，与大家一起分享吧！</strong></p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+<div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_614">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">威锋酷品</a></h2>
+</div>
+<div id="sub_forum_614" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=615&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/58/common_615_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">威锋网酷品专区</div>
+<div class="posthreads"><p>威锋网酷品专区旨在为广大锋友推荐最好玩、最炫酷、最有价值的智能硬件设备，并每期为锋友免费提供新奇酷品试玩机会。</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=262&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/36/common_262_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">1</span>锋友开箱晒货专区</div>
+<div class="posthreads"><p>此版为锋友的开箱晒货专属版块，您败到的苹果任何相关产品都拿出来跟大家分享开箱照吧：）和我们一起，加入世界上最好的数码玩家群体！</p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+<div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_572">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">Apple Watch 论坛</a></h2>
+</div>
+<div id="sub_forum_572" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=573&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/e5/common_573_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">20</span>Apple Watch综合讨论区</div>
+<div class="posthreads"><p>真正与你贴近的个人设备，谁都可以找到属于自己的 Apple Watch 。</p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+<div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_8">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">Apple Mac 论坛</a></h2>
+</div>
+<div id="sub_forum_8" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=68&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/a3/common_68_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">18</span>Mac综合讨论区</div>
+<div class="posthreads"><p><strong>MacBook Air / MacBook / MacBook PRO / IMAC...<br />
+MACOS X系统+软件综合讨论！</strong></p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=19&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/1f/common_19_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">9</span>Mac OSX 软件游戏分享区</div>
+<div class="posthreads"><p>Mac app store隆重登场，各位Mac用户（小苹果以上等级）可在此分享交流经验！</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=102&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/ec/common_102_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">Mac OSX86 for PC</div>
+<div class="posthreads"><p>让你的PC电脑变 苹果系统!<br />
+我们有着非常实用的技术资料提供给大家。欢迎参与讨论!</p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+<div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_223">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">Apple iPad 论坛</a></h2>
+</div>
+<div id="sub_forum_223" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=602&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/c3/common_602_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">iPad Pro 综合讨论区</div>
+<div class="posthreads"><p>iPad Pro ，搭配9.7&amp;12.9英寸屏幕，A9X芯片，与<font color="Red">Apple Pencil、智能键盘</font>完美结合！ iOS史上最强大设备，支持10小时续航，桌面级性能超强平板！</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=532&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/29/common_532_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">2</span>iPad Air 综合讨论区</div>
+<div class="posthreads"><p>iPad Air&amp;iPad Air 2 综合讨论区；iPad Air 2，全球最薄，搭配A8X处理器，Touch ID，iSight 800W；从此只有爱不释手。</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=482&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/f7/common_482_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">10</span>iPad mini 系列综合讨论区</div>
+<div class="posthreads"><p>iPad mini 1&amp;2&amp;3&amp;4 综合讨论区；iPad mini 4全新发布，性能升级，iPad从此与你形影不离。</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=435&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/dd/common_435_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">iPad 3&amp; iPad4综合讨论区</div>
+<div class="posthreads"><p>The New iPad!梦幻般的2048*1536分辨率；500 万像素iSight；1080p摄像；语音识别；4G LTE,4代iPad来了！全新lightning接口，更强A6XCPU。</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=333&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/31/common_333_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">iPad1&2 综合讨论区</div>
+<div class="posthreads"><p>apple第一代跟第二代iPad综合讨论区。</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=224&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/13/common_224_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">10</span>iPad 电子书资源分享区</div>
+<div class="posthreads"><p>支持epub，Pdf，AAC；分享小说、杂志、漫画、有声读物，各类书籍，一网打尽！</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=228&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/74/common_228_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">iPad游戏软件分享区</div>
+<div class="posthreads"><p>这里是iPad的HD游戏&amp;软件发布与讨论专区，欢迎交流游戏心得,分享软件使用经验。</p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+<div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_123">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">Apple iPod 论坛</a></h2>
+</div>
+<div id="sub_forum_123" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=272&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/7a/common_272_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">iPod Touch 4&amp;5 综合讨论区</div>
+<div class="posthreads"><p>新 iPod touch !A8芯片、搭载iOS 8系统,800万像素iSight摄像头和5款绚丽色彩！let's colors!</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=10&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/d3/common_10_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">iPod touch&amp;iPod Nano7代</div>
+<div class="posthreads"><p>Nano也来touch!一样的灵魂，不一样的机身，全新iPod Nano,touch my iPod Nano!<br />
+<strong>iPod touch</strong>及itouch 2代&amp;3代 综合讨论区 &amp;  相关资源区</p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+<div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_17">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">WeiPhone 新闻专区</a></h2>
+</div>
+<div id="sub_forum_17" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=7&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/8f/common_7_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">2</span>APPLE新闻互动射区</div>
+<div class="posthreads"><p>这里将为你带来最前沿的咨讯，让<strong>新闻</strong>给你的生活带来更多的惊喜！</p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+<div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_404">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">WeiPhone特别资源专区</a></h2>
+</div>
+<div id="sub_forum_404" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=365&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/9b/common_365_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">3</span>itunes帐号分享软件区</div>
+<div class="posthreads"><p>不越狱照样玩！锋友一起来分享吧！此版为分享帐号下载软件的专版，改密码者远离！</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=406&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/8c/common_406_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">7</span>限时免费</div>
+<div class="posthreads"><p>iPhone/iPad/Mac,苹果全系列的限时免费、冰点特价、正版软件发码，我们一起爱正版：）</p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+<div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_21">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">Apple iPhone 论坛</a></h2>
+</div>
+<div id="sub_forum_21" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=643&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/9b/common_643_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">207</span>iPhone 7 综合讨论区</div>
+<div class="posthreads"><p>iPhone7、iPhone7 Plus 惊艳登场！双摄像头，A10处理器，新的Retina HD屏幕，压力感应Home键，IP67防水，5种颜色，更大的储存空间！</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=617&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/5d/common_617_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">8</span>iPhone SE 综合讨论区</div>
+<div class="posthreads"><p>iPhone SE，史上最强劲4寸手机，搭载A9处理器，1200万像素相机，Focus Pixels，双色闪光，4种配色，支持Apple Pay！</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=601&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/b2/common_601_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">166</span>iPhone 6s 综合讨论区</div>
+<div class="posthreads"><p>iPhone6s、iPhone6s Plus 惊艳亮相！搭载更快70%的全新A9芯片，含玫瑰金四种配色，拥有全新手势与3D Touch的新一代iPhone!</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=570&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/a8/common_570_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">37</span>iPhone 6 综合讨论区</div>
+<div class="posthreads"><p>不只是大了！iPhone6 带来全新4.7寸&amp;5.5寸的大屏之作，配备64位的台式电脑级架构A8处理器，M8协处理器，Metal技术，超凡的isight, ios8;你手上的iPhone，一切，均已进化。</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=526&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/85/common_526_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">6</span>iPhone 5s 综合讨论区</div>
+<div class="posthreads"><p>超前,空前,缔造技术为人所用的典范。Touch ID,全新指纹识别传感器,全新64位A7芯片和M7协处理器,全新iSight摄像头,retina4寸,搭载iOS7。</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=525&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/69/common_525_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">2</span>iPhone 5c 综合讨论区</div>
+<div class="posthreads"><p>用色彩来表达自我，展现独特个性。iPhone 5c 带来 5 款独具风格的色彩，搭载A6处理器，4寸retina屏幕，iOS7。</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=466&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/e8/common_466_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">7</span>iPhone 5 综合讨论区</div>
+<div class="posthreads"><p>搭载iOS6，全新设计的iPhone，历来最薄最轻的iPhone,4寸retina显示屏，铝合金+陶瓷混合机身,A6处理器，earpod耳机。</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=385&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/dc/common_385_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">13</span>iPhone 4s 综合讨论区</div>
+<div class="posthreads"><p>iPhone 4S! 搭载iOS5，语音助理—Siri ，A5双核处理器，最大64G，1080p HD 高清录像，全新800万像素摄像头，超快连拍。</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=240&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/33/common_240_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">1</span>iPhone 4 综合讨论区</div>
+<div class="posthreads"><p>再次改变一切！iPhone 4：全新外观+玻璃材质，3.5寸Retina显示屏、960*640分辨率，三轴陀螺仪、A4处理器，720p高清摄像，facetime,多任务。</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=97&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/e2/common_97_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">1</span>iPhone1 & 3G & 3GS 综合讨论区</div>
+<div class="posthreads"><p>◆iPhone第一代和iPhone 3G（2代）、iPhone 3GS 的综合讨论区◆新来的小苹果们注意阅读置顶的精华帖!【新闻】【教程】【破解提问】【新手问题】【使用及技巧心得】</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=185&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/ee/common_185_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">1</span>联通iPhone综合讨论区</div>
+<div class="posthreads"><p>行货联通iPhone用户的交流平台,wifi版3Gs！还有iPhone4哦！玩转3G WCDMA！</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=39&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/d6/common_39_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">1</span>iPhone App开发外包专区</div>
+<div class="posthreads"><p>寻求iPhone App开发外包合作的来此区，<strong>构建企业与开发者之间的桥梁！</strong></p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=9&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/45/common_9_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">326</span>iPhone Beer</div>
+<div class="posthreads"><p>WeiPhone 的高质量大水区。iPhone、生活.、感想、炫耀,都参与进来吧！iphoner放松的家园！但是不要太过分喔～～</p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+<div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_184">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">iPhone&amp;touch资源分享区</a></h2>
+</div>
+<div id="sub_forum_184" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=36&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/19/common_36_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">iPhone游戏·软件讨论区</div>
+<div class="posthreads"><p>这里是WeiPhone 强大的<strong>游戏&amp;软件发布与讨论</strong>专区，欢迎来此交流游戏心得,分享软件使用经验;常用软件以专区形式出现。</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=22&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/b6/common_22_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">6</span>iPhone资源区</div>
+<div class="posthreads"><p>iPhone的 [壁纸][主题][铃声][电子书]等资源的下载、交流及制作发布区，注意此区<strong>不打水印</strong>！</p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+<div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_350">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">Apple TV论坛</a></h2>
+</div>
+<div id="sub_forum_350" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=351&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/ef/common_351_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">New Apple TV综合讨论区</div>
+<div class="posthreads"><p>Apple TV 全系列综合讨论区，A8 芯片、支持蓝牙 4.0 的体感遥控器、陀螺仪、802.11ac、搭载 tvOS，全新Apple TV 发布！玩转高清！</p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+<div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_28">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">WeiPhone 交易区</a></h2>
+</div>
+<div id="sub_forum_28" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=16&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/c7/common_16_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">9</span>WeiPhone 交易发布区</div>
+<div class="posthreads"><p>论坛会员商家相互交易区，二手交易，任何会员都可在本区发布交易帖，小苹果以上可发帖。<br />
+<font color="red"><strong>交易请谨慎，谨防受骗</strong></font></p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=84&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/68/common_84_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">WeiPhone认证维修区</div>
+<div class="posthreads"><p></p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=29&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/6e/common_29_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name"><span class="num">23</span>威锋（个人）二手数码市场</div>
+<div class="posthreads"><p><strong><font size="2"> 威锋论坛二手区版块为威锋网会员个人闲置二手3C数码交易区，商家勿入！发帖之前请务必阅读  </font></strong></p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=86&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/93/common_86_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">会员交易申诉区</div>
+<div class="posthreads"><p></p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+<div class="bm bmw fl">
+<div class="subforumshow bm_h cl" href="#sub_forum_4">
+<span class="o"><img src="static/image/mobile/images/collapsed_yes.png"></span>
+<h2><a href="javascript:;">!WeiPhone站务与公告</a></h2>
+</div>
+<div id="sub_forum_4" class="sub_forum bm_c">
+<ul>      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=6&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/16/common_6_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">!WeiPhone站务与公告</div>
+<div class="posthreads"><p>WeiPhone论坛公告发布，会员意见与建议，会员事务处理，友情连接申请等.</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=457&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/42/common_457_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">威锋商城fengbuy问题反馈区</div>
+<div class="posthreads"><p>威锋商城会员专属通道</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=233&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/e1/common_233_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">威锋源专区</div>
+<div class="posthreads"><p>源服务器已调试升级完毕 ~！可放心正常使用</p></div>
+</div>
+</a>
+</li>
+      
+
+<li>
+<a href="forum.php?mod=forumdisplay&amp;fid=332&amp;mobile=2">
+<div class="posticon"><img src="http://bbsimages.feng.com/data/attachment/common/c0/common_332_icon.png" align="left" alt="" /></div>
+<div class="c_board">
+<div class="board_name">威锋网客户端讨论区&amp;BUG提交</div>
+<div class="posthreads"><p></p></div>
+</div>
+</a>
+</li>
+               </ul>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+(function() {
+$('.sub_forum').css('display', 'block');
+$('.subforumshow').on('click', function() {
+var obj = $(this);
+var subobj = $(obj.attr('href'));
+if(subobj.css('display') == 'none') {
+subobj.css('display', 'block');
+obj.find('img').attr('src', 'static/image/mobile/images/collapsed_yes.png');
+} else {
+subobj.css('display', 'none');
+obj.find('img').attr('src', 'static/image/mobile/images/collapsed_no.png');
+}
+});
+ })();
+</script>
+<!-- main forumlist end -->
+<nav id="menu" class="hide">
+    <div class="page-sidebar">
+    <div class="page-sidebar-scroll">
+        <div class="aHead">
+                    <a href="/member.php?mod=logging&amp;action=login&amp;mobile=2" class="user_face float_l"><img src="http://face.feng.com/data/avatar/000/00/00/00_avatar_middle.jpg" /></a>
+                <span class="float_l"><a href="/member.php?mod=logging&amp;action=login&amp;mobile=2">&nbsp;<br />登录更好玩</a></span>
+                        </div>
+            <section class="SearchWrap " >
+            <form id="searchform" name="form1" method="get" action="http://s.feng.com/">
+            <div class="sch_panel">
+            <span class="txt_field float_l">  
+                <input type="hidden" name="srchmod" value="all">
+                <input type="text" name="srchtxt" id="scbar_txt" placeholder="搜索其实很简单！ (^_^)" autocomplete="off" class="ac_input" value=""></span>
+            <span class="float_r"><button type="submit" class="btns"><i class="Hidden">搜索</i></button></span>
+            </div>
+            </form>
+            </section>
+        <ul class="Amenu">
+        	                        <li><span class="menu_01"></span><a href="./forum.php?mobile=2&amp;do=index">首页</a></li>
+                                
+<li><span class="menu_09"></span><a href="./plugin.php?id=trends&amp;square=square">动态</a></li>
+                <li><span class="menu_07"></span><a href="/forum.php?mobile=2">论坛</a></li>
+                
+                                <!--<li><span class="menu_02"></span><a href="/plugin.php?id=feng_mobile&amp;do=news&amp;app=6">新手</a></li>-->
+                                
+                                <li><span class="menu_03"></span><a href="http://g.feng.com">在线游戏</a></li>
+                                
+                                <!--<li><span class="menu_04"></span><a href="/plugin.php?id=feng_mobile&amp;do=news&amp;app=1">滚动新闻</a></li>--> 
+                                
+                <li><span class="menu_tutu"></span><a href="http://www.tutuapp.com">兔兔助手</a></li>
+                <li><span class="menu_huishou"></span><a href="http://www.58yiji.com">二手专家</a></li>
+                
+                                <li><span class="menu_05"></span><a href="/plugin.php?id=feng_mobile&amp;do=news&amp;app=5">锋科技</a></li>
+                        </ul>
+        </div>
+    </div>                    
+</nav>
+<script src="/static/js/mobile/jquery.autocomplete.min.ajax.js" type="text/javascript" type="text/javascript"></script>
+<script>
+var inputWidth=$(".sch_panel").width()-52;	
+$('#scbar_txt').autocomplete('http://s.feng.com/api/autocomplateAjax.php',{
+max: 12,
+minChars: 1,
+width: inputWidth,
+scrollHeight: 300,
+matchContains: true,
+autoFill: false,
+dataType: 'jsonp',
+jsonp: "callback", 
+extraParams: {
+searchtype: 'thread' 
+},           
+parse: function(rdata){ 
+var rows = [];
+for(var i=0; i<rdata.length; i++){
+rows[i] = { 
+data:rdata, 
+value:rdata[i], 
+result:rdata[i], 
+}; 
+}
+return rows;    
+}
+}).result(function(event, data, formatted) {
+$("#scbar_form").submit();
+});
+
+</script>﻿	</div>
+
+<div id="ft" class="wp cl" style="text-align:center;"><div class="footer_new">
+<span> <a href="./forum.php?mobile=2&amp;do=index">首页</a></span> | <span><a href="./member.php?mod=logging&amp;action=login&amp;mobile=2">登录</a></span>  | <span><a href="http://passport.feng.com/index.php?r=user/register">注册</a></span> 
+</div>
+<div  class="footer_new">
+<span>触屏版</span> | <span>
+<a id='mobileurl' href="http://bbs.feng.com/forum.php?mobile=no">电脑版</a>
+</span>  | <span><a href="https://itunes.apple.com/cn/app/wei-feng-qian-wan-guo-fen/id981437434?mt=8" target=_blank>客户端</a></span> 
+</div>
+<div id="frt">
+<p class="xs0">© Joyslink Inc. </p>
+</div></div>
+<script type="text/javascript">_attachEvent(window, 'scroll', function () { showTopLink(); });checkBlind();</script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253389954'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/c.php%3Fid%3D1253389954' type='text/javascript'%3E%3C/script%3E"));</script>
